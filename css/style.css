@@ -1,0 +1,366 @@
+/* ===== Section General ===== */
+section{
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+p{
+    color: gray;
+}
+/* ===== Section General End ===== */
+
+/* ===== Back To Top ===== */
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+  }
+  
+  .back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #ff0000;
+    color: #fff;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i:hover {
+    background: #ff00008c;
+    color: #fff;
+  }
+
+/* ===== Hero Sections ===== */
+#hero .carousel-item img{
+    width: auto;
+    height: 100vh;
+
+    margin: auto; 
+
+    object-fit: cover;
+    animation: zoom 20s;
+
+    filter: brightness(40%);
+
+    position: relative;
+}
+    @keyframes zoom {
+        from {
+            transform: scale(1, 1);
+        }
+        to {
+            transform: scale(1.5, 1.5);
+        }
+    }
+
+#hero .heroBanner{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    right: 0;
+    left: 0;
+    width: 90%;
+
+    text-align: center;
+    color: white; 
+}
+  
+    /* Large devices (laptops/desktops, 992px and down) */
+    @media only screen and (min-width: 992px) {
+        #hero h1 {
+            font-size: 5rem;
+        }
+    }
+    
+    /* Medium devices (landscape tablets, 768px and down) */
+    @media only screen and (max-width: 991.5px) {
+        #hero h1 {
+            font-size: 3rem;
+        }
+
+    }
+/* ===== Hero Sections End ===== */      
+
+
+/* ===== Biodata Sections ===== */
+
+
+#biodata .card-outside .card{
+    border-radius: 25px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#biodata .card-inside .card{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+#biodata .card-inside a{
+    font-size: 28px;
+    color: gray;
+}
+    #biodata .card-inside a :hover{
+        color: goldenrod;
+    }
+  
+/* ===== Biodata Sections End===== */
+
+/* ===== Waktu Mundur Sections ===== */
+#waktu-mundur{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero/slide-1.jpg) fixed center top;
+    background-size: cover;
+    padding: 420px 0;
+
+    position: relative;
+     
+}
+    @media (max-width: 1024px) {
+        #waktu-mundur {
+            background-attachment: scroll;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #waktu-mundur {
+            padding: 400px 0;
+        }
+    }
+
+
+
+#waktu-mundur .box-pemanis1{
+    width: 100%;
+    height: 100px;
+    
+    position: absolute;
+    top: 0;
+
+    background-color: white;
+    border-radius: 0 0 65% 65% / 100%;
+}
+
+#waktu-mundur .box-pemanis2{
+    width: 100%;
+    height: 100px;
+    
+    position: absolute;
+    bottom: 0;
+
+    background-color: white;
+    border-radius: 65% 65% 0 0 / 100%;
+}
+
+#waktu-mundur .wm-video iframe{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    
+    border-radius: 15px;
+    border-color: #ff0000;
+    
+}
+    @media only screen and (min-width: 1024px){
+        #waktu-mundur .wm-video iframe{
+            width: 50%;
+            height: 30%;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (orientation: landscape){
+        #waktu-mundur .wm-video iframe{
+            width: 50%;
+            height: 35%;
+        }
+    }
+
+#waktu-mundur .wm-card{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+    .wm-card .card{
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    }
+
+/* countdown */
+#waktu-mundur .countdown div {
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    padding: 15px 0;
+    background: rgba(153, 153, 153, 0.068);
+    border-top: 5px solid #ff0000;
+  }
+  
+  #waktu-mundur .countdown div h3 {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 15px;
+  }
+  
+  #waktu-mundur .countdown div h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 575px) {
+    #waktu-mundur .countdown div {
+      width: 70px;
+      padding: 10px 0;
+      margin: 10px 8px;
+    }
+    #waktu-mundur .countdown div h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    #waktu-mundur .countdown div h4 {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+
+/* ===== Waktu Mundur Sections End ===== */
+
+/* ===== Akad-Resepsi Sections ===== */
+#akad-resepsi .ar-item .card{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+#akad-resepsi .ar-item hr{
+    width: 80%;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    
+
+}
+/* ===== Akad-Resepsi Sections End ===== */
+
+/* ===== Cerita Cinta Sections ===== */
+#cerita-cinta{
+    background-color:whitesmoke;
+    position: relative;
+}
+
+    #cerita-cinta .box-pemanis3{
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+    }
+    #cerita-cinta .box-pemanis4{
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+    }
+    #cerita-cinta .box-pemanis5{
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        left: 0;
+    }
+    #cerita-cinta .box-pemanis6{
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        right: 0;
+    }
+
+
+    
+   
+/* ===== Cerita Cinta Sections End ===== */
+
+/* ===== Gallery Sections ===== */
+#gallery{
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 
+    repeat(6, 250px);
+    grid-template-columns: 
+    repeat(4, 1fr);
+    grid-gap: 5px;
+    background-size: auto;
+    
+    margin:20px auto;
+    max-width:1000px;
+}
+      
+      .item:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 1/2;
+      }
+      .item:nth-child(2) {
+        grid-column: 3/5;
+        grid-row: 1/2;
+      }
+      .item:nth-child(3) {
+        grid-column: 1/3;
+        grid-row: 2/4;
+      }
+      .item:nth-child(4) {
+        grid-column: 3/5;
+        grid-row: 2/5;
+      }
+      .item:nth-child(5) {
+        grid-column: 1/3;
+        grid-row: 4/5;
+      }
+      .item:nth-child(6) {
+        grid-column: 1/5;
+        grid-row: 5/7;
+      }
+      
+      @media (max-width: 1120px) {
+        .grid{
+          grid-template-rows: 
+            repeat(5, 30vw);
+          grid-template-columns: 
+            repeat(4, 1fr);
+        }
+        
+        .item:nth-child(1) {
+          grid-column: 1/3;
+          grid-row: 1/3;
+        }
+        .item:nth-child(2) {
+          grid-column: 3/5;
+          grid-row: 1/3;
+        }
+        .item:nth-child(3) {
+          grid-column: 1/3;
+          grid-row: 3/4;
+        }
+        .item:nth-child(4) {
+          grid-column: 3/5;
+          grid-row: 3/5;
+        }
+        .item:nth-child(5) {
+          grid-column: 1/3;
+          grid-row: 4/5;
+        }
+        .item:nth-child(6) {
+          grid-column: 1/5;
+          grid-row: 5/7;
+        }
+      }
+      
+      .grid > .item {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+/* ===== Gallery Sections End ===== */
+
