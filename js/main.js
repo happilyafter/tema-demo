@@ -47,5 +47,9 @@
         }, 1500, 'easeInOutExpo');
         return false;
     });
+
+    // Modal
+   $('#myModal').modal('show');
+
     
 })(jQuery);

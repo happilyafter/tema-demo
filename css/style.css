@@ -415,3 +415,61 @@ p{
             }
 
 /* ===== Footer Sections End ===== */
+
+/* ===== Modal ===== */
+.modal-dialog{
+  margin-left:0px;
+  margin-right: 0px;
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+.modal-content{
+  background-color: transparent !important;
+  border: none !important;
+  width: 70%;
+  margin: auto;
+}
+
+.modal-bg-img{
+  position: fixed;
+  left: -1000%;
+  right: -1000%;
+  top: -1000%;
+  bottom: -1000%;
+  margin: auto; 
+  object-fit: cover;
+  overflow: visible;
+}
+
+.modal-body{
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+@media only screen and (max-width: 991px) and (orientation:landscape) {
+  .modal-bg-img{
+   height: 105vh;
+  }
+  .modal-body{
+    padding-left: 40vh;
+    padding-right: 40vh;
+  }
+}
+
+@media only screen and (max-width: 991px) and (orientation:portrait) {
+  .modal-body{
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+  .modal-bg-img{
+   height: 80vh;
+  }
+}
+
+
+/* ===== Modal End ===== */
