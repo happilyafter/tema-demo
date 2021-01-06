@@ -16,7 +16,7 @@
 
     // Hero-Carousel
     $('.carousel').carousel({
-        interval: 5000,
+        interval: 5200,
         Wrap: false,
         ride: true,
         touch: true,

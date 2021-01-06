@@ -12,11 +12,33 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="vendor/aos/aos.css" rel="stylesheet">
+    
 
      <!-- Personal CSS -->
      <link rel="stylesheet" href="css/style.css">
 
+     <div id="fb-root"></div>
 
+     <script>(function(d, s, id) {
+     
+                   var js, fjs = d.getElementsByTagName(s)[0];
+     
+                   if (d.getElementById(id)) return;
+     
+                   js = d.createElement(s); js.id = id;
+     
+                   js.src = "https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v9.0";
+     
+                   fjs.parentNode.insertBefore(js, fjs);
+     
+                 }(document, 'script', 'facebook-jssdk'));
+     
+     </script>
+
+    <script src=”https://apis.google.com/js/plusone.js”>
+    </script>
+     
+      
     <title>Galih & Ratna</title>
   </head>
 
@@ -137,8 +159,9 @@
         <div class="container">
             
             <div class="wm-video d-flex justify-content-center">
-                <iframe  allowFullScreen='allowFullScreen' class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                <iframe  allowFullScreen='allowFullScreen' class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY" ></iframe>
             </div>
+            
    
             <div class="row d-flex justify-content-center">
               <div class="col-md-6 col-sm-8 wm-card">
@@ -282,7 +305,11 @@
         <!-- item -->
         <div class="cc-timeline">
           <div class="container">
-            
+              
+
+                  
+
+
           </div>
         </div>
 
@@ -290,12 +317,13 @@
         <div class="box-pemanis6"><img src="img/ornament5.png" alt="ornamnet2" style="width: 7rem;"></div>
     </section>
     <!-- ===== Cerita Cinta Sections End ===== -->
-       
+      
+    <!-- ===== Gallery Sections ===== -->
     <section id="gallery">
       <div class="container">
 
         <div class="gl-tittle text-center py-3">
-          <h3>Gallery</h3>
+          <h3>Our Moment</h3>
         </div>
 
         <div class="gl-item">
@@ -314,9 +342,61 @@
 
       </div>
     </section>
+    <!-- ===== Gallery Sections End ===== -->
 
-    
+    <!-- ===== Form Wish Sections ===== -->
+    <section id="wish-comment">
+      <div class="container">
 
+        <div class="wc-tittle text-center">
+          <h3>Send Us Your Love</h3>
+        </div>
+
+        <!-- <div class="wc-form pt-4">
+          <form action="">
+            <div class="col-md-6 mx-auto">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Form</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" required autofocus>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Wish</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required autofocus></textarea>
+              </div>
+
+              <input type="submit" name="simpan" class="btn btn-dark float-right" value="Tambah"></input>
+            </div>
+          </form> -->
+
+          <div class="wc-comment py-3">
+            <div class="col-md-10 mx-auto">
+              <div class="fb-comments" data-href="https://www.facebook.com/happily.after.148/posts/103347941719851" data-width="100%" data-numposts="2" data-colorscheme="light" 	
+              data-lazy="true"></div>
+            </div>  
+          </div>
+          
+         
+          
+        </div>
+
+        
+
+      </div>
+    </section>
+  
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-12 text-center">
+          <div class="copyright">
+            &copy; with <strong>Happily After - Weddig of Galih & Ratna</strong>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <!-- back-to-top -->
   <a href="#" class="back-to-top" style="text-decoration: none;"><i class="bi bi-chevron-compact-up"></i></a>
@@ -329,6 +409,8 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/jquery-countdown/jquery.countdown.min.js"></script>
     <script src="vendor/aos/aos.js"></script>
+   
+    
 
     <!-- js personal -->
     <script src="js/main.js"></script>
