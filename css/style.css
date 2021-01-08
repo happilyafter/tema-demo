@@ -269,8 +269,40 @@ p{
         right: 0;
     }
 
+    #cerita-cinta .img-thumbnail {
+      box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    }
 
-    
+    @media (min-width: 992px){
+      #cerita-cinta .cc-timeline img{
+        object-fit: cover;
+        position: relative;
+        top: 0;
+
+        width: 100%;
+        height: 50vh;
+
+        object-position: center;
+      }
+
+      #cerita-cinta .cc-timeline h4{
+        padding-top: 4rem;
+      }
+
+      #cerita-cinta .img-thumbnail {
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 991px){
+      #cerita-cinta .img-thumbnail {
+        padding: 0.4rem;
+      }
+    }
+  
+
+
+      
    
 /* ===== Cerita Cinta Sections End ===== */
 
@@ -368,8 +400,6 @@ p{
 
 
 /* ===== Gallery Sections End ===== */
-
-
 
 
 /* ===== Footer Sections ===== */
