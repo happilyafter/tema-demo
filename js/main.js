@@ -51,5 +51,6 @@
     // Modal
    $('#myModal').modal('show');
 
+ 
     
 })(jQuery);

@@ -40,9 +40,12 @@ Cache-Control:public;>
   </head>
 
 
-  <body>
+  <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;"> 
     <!-- ===== Modal ===== -->
-    <div id="myModal" class="modal fade" tabindex="-1">
+    <div id="myModal" class="modal" tabindex="-1"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+    >
       <div class="modal-dialog modal-dialog-centered" role="document">
 
         <img alt="image" class="modal-bg-img" src="img/modal-bg.png">
@@ -65,7 +68,10 @@ Cache-Control:public;>
     <div id="hero">
         <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <!-- hero-banner -->
-                <div class="heroBanner col-md-12 mx-auto">
+                <div class="heroBanner col-md-12 mx-auto" 
+                      data-aos="fade-up"
+                      data-aos-duration="3000"
+                >
                   <h5>We Are Getting Married!</h5>
                   <i><h1>Galih & Ratna</h1></i>
                   <h4>29 November 2020</h4>
@@ -122,7 +128,10 @@ Cache-Control:public;>
                         <div class="card-inside">
                             <div class="row">
                                 <!-- bio1 -->
-                                <div class="col-md-5 px-0 offset-1">
+                                <div class="col-md-5 px-0 offset-1"
+                                      data-aos="fade-down-right"
+                                      data-aos-duration="1500"
+                                >
                                   <div class="card">
                                     <div class="card-body text-center">
                                         <img src="img/bio1.png" alt="bio-1" class="img-fluid pb-3">
@@ -138,7 +147,10 @@ Cache-Control:public;>
                                 </div>
     
                                 <!-- bio2 -->
-                                <div class="col-md-5 px-0">
+                                <div class="col-md-5 px-0"
+                                    data-aos="fade-down-left"
+                                    data-aos-duration="1500"
+                                >
                                   <div class="card">
                                     <div class="card-body text-center">
                                         <img src="img/bio2.png" alt="bio-1" class="img-fluid pb-3">
@@ -178,12 +190,15 @@ Cache-Control:public;>
         <div class="container">
             
             <div class="wm-video d-flex justify-content-center">
-                <iframe  allowFullScreen='allowFullScreen' class="responsive-iframe" src="https://www.youtube.com/embed/ypvmqYo5JGQ" ></iframe>
+                <iframe  allowFullScreen='allowFullScreen' class="responsive-iframe" src="https://www.youtube.com/embed/ypvmqYo5JGQ"  data-aos="zoom-in" data-aos-duration="1500"></iframe>
             </div>
             
    
             <div class="row d-flex justify-content-center">
-              <div class="col-md-6 col-sm-8 wm-card">
+              <div class="col-md-6 col-sm-8 wm-card"
+                data-aos="zoom-in" 
+                data-aos-duration="1500"
+              >
                 
                 <div class="card">
                   <div class="card-body text-center">
@@ -245,7 +260,10 @@ Cache-Control:public;>
         <div class="ar-item row d-flex justify-content-center">
 
           <!-- akad -->
-          <div class="col-md-4 pb-3">
+          <div class="col-md-4 pb-3"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <div class="card">
               <div class="card-body text-center">
                 <h5 class="card-title">Akad</h5>
@@ -259,7 +277,10 @@ Cache-Control:public;>
           </div>
 
           <!-- resepsi -->
-          <div class="col-md-4 pb-3">
+          <div class="col-md-4 pb-3"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <div class="card">
               <div class="card-body text-center">
                 <h5 class="card-title">Resepsi</h5>
@@ -273,7 +294,7 @@ Cache-Control:public;>
           </div>
         </div>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center pt-4">
           <img src="img/ornament6.png" alt="ornament1" class="img-fluid" style="width: 10rem;">
         </div>
 
@@ -291,19 +312,34 @@ Cache-Control:public;>
 
           <!-- item -->
           <div class="row text-center d-flex justify-content-center">
-            <div class="col-lg-2 col-6 p-0">
+            <div class="col-lg-2 col-6 p-0"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+            >
               <img src="img/icon/icon_masker.png" alt="" ><br>
               <p>Memakai Masker</p>
             </div>
-            <div class="col-lg-2 col-6 p-0">
+
+            <div class="col-lg-2 col-6 p-0"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <img src="img/icon/icon_hindari.png" alt=""><br>
               <p>Menghindari Kontak</p>
             </div>
-            <div class="col-lg-2 col-6 p-0">
+
+            <div class="col-lg-2 col-6 p-0"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+            >
               <img src="img/icon/icon_jarak.png" alt=""><br>
               <p>Menjaga Jarak</p>
             </div>
-            <div class="col-lg-2 col-6 p-0">
+
+            <div class="col-lg-2 col-6 p-0"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <img src="img/icon/icon_cucitangan.png" alt=""><br>
               <p>Mencuci Tangan</p>
             </div>
@@ -330,7 +366,11 @@ Cache-Control:public;>
               
             <!-- side pertemuan -->
             <div class="row">
-              <div class="col-lg-6 col-6 text-right">
+              <div class="col-lg-6 col-6 text-right"
+                    data-aos="flip-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
+              >
                 <img src="img/cerita-cinta/cc1.jpg" alt="" class="img-thumbnail">
               </div>
               <div class="col-lg-6 col-6">
@@ -351,14 +391,22 @@ Cache-Control:public;>
                   Dolorum dolor ex quisquam odio nisi. 
                 </p>
               </div>
-              <div class="col-lg-6 col-6">
+              <div class="col-lg-6 col-6"
+                    data-aos="flip-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000"
+              >
                 <img src="img/cerita-cinta/cc2.jpg" alt=""  class="img-thumbnail">
               </div>
             </div>
             
               <!-- side pernikahan -->
               <div class="row">
-                <div class="col-lg-6 col-6 text-right pb-3">
+                <div class="col-lg-6 col-6 text-right pb-3"
+                      data-aos="flip-left"
+                      data-aos-easing="linear"
+                      data-aos-duration="2000"
+                >
                   <img src="img/cerita-cinta/cc3.jpg" alt="" class="img-thumbnail">
                 </div>
                 <div class="col-lg-6 col-6">
@@ -389,12 +437,12 @@ Cache-Control:public;>
         <div class="gl-item">
           <div class="col-12">
             <div class="grid">
-              <div class="item img-thumbnail" style="background-image: url(img/gallery/benches.jpg)"></div>
-              <div class="item img-thumbnail" style="background-image: url(img/gallery/bridge.jpg)"></div>
-              <div class="item img-thumbnail" style="background-image: url(img/gallery/coast.jpg)"></div>
-              <div class="item img-thumbnail" style="background-image: url(img/gallery/park.jpg)"></div>
-              <div class="item img-thumbnail" style="background-image: url(img/gallery/rails.jpg)"></div>
-              <div class="item img-thumbnail" style="background-image: url(img/gallery/rocks.jpg)"></div>
+              <div class="item img-thumbnail" style="background-image: url(img/gallery/benches.jpg)"  data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500"></div>
+              <div class="item img-thumbnail" style="background-image: url(img/gallery/bridge.jpg)"   data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500"></div>
+              <div class="item img-thumbnail" style="background-image: url(img/gallery/coast.jpg)"    data-aos="flip-left" data-aos-easing="linear" data-aos-duration="2000"></div>
+              <div class="item img-thumbnail" style="background-image: url(img/gallery/park.jpg)"     data-aos="flip-left" data-aos-easing="linear" data-aos-duration="2000"></div>
+              <div class="item img-thumbnail" style="background-image: url(img/gallery/rails.jpg)"    data-aos="flip-left" data-aos-easing="linear" data-aos-duration="2500"></div>
+              <div class="item img-thumbnail" style="background-image: url(img/gallery/rocks.jpg)"    data-aos="flip-left" data-aos-easing="linear" data-aos-duration="3000"></div>
           </div>
           </div>
         </div>
@@ -468,6 +516,11 @@ Cache-Control:public;>
 
     <!-- js personal -->
     <script src="js/main.js"></script>
-    
+
+    <!-- // initialization -->
+    <script>
+        AOS.init();
+    </script>
+
   </body>
 </html>
