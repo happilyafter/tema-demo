@@ -522,12 +522,28 @@ p{
     padding-left: 40vh;
     padding-right: 40vh;
   }
+  .modal-body .mb-p1{
+    padding-top: 4rem;
+  }
+  .modal-body .mb-p2{
+   padding-bottom: 4rem;
+ }
 }
 
 @media only screen and (max-width: 991px) and (orientation:portrait) {
   .modal-body{
     padding-left: 1vh;
     padding-right: 1vh;
+  }
+  .modal-bg-img{
+    max-width: 55vh;
+   }
+
+   .modal-body .mb-p1{
+     padding-top: 10rem;
+   }
+   .modal-body .mb-p2{
+    padding-bottom: 5rem;
   }
 }
 
