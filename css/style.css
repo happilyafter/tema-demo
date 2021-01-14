@@ -1,3 +1,13 @@
+/* ===== Font General ===== */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+h2{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  letter-spacing: 1px;
+}
+
 /* ===== Section General ===== */
 section{
     padding: 40px 0;
@@ -58,6 +68,14 @@ p{
             transform: scale(1.5, 1.5);
         }
     }
+#hero h1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#hero h5{
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 2px;
+}
 
 #hero .heroBanner{
     position: absolute;
@@ -81,7 +99,14 @@ p{
     /* Medium devices (landscape tablets, 768px and down) */
     @media only screen and (max-width: 991.5px) {
         #hero h1 {
-            font-size: 2.9rem;
+            font-size: 3rem;
+        }
+        #hero h5 {
+          font-size: 1rem;
+          letter-spacing: .5px;
+        }
+        #hero .heroBanner{
+          top: 70%;
         }
 
     }
@@ -107,7 +132,7 @@ p{
     #biodata .card-inside a :hover{
         color: goldenrod;
     }
-  
+
 /* ===== Biodata Sections End===== */
 
 /* ===== Waktu Mundur Sections ===== */
@@ -130,7 +155,10 @@ p{
             padding: 400px 0;
         }
     }
-
+#waktu-mundur h1{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 4rem;
+}
 
 
 #waktu-mundur .box-pemanis1{
@@ -236,7 +264,18 @@ p{
     
 
 }
+
+#akad-resepsi .card h5{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+.protokol-kesehatan img{
+  width: 72px;
+  height: 72px;
+}
 /* ===== Akad-Resepsi Sections End ===== */
+
+
 
 /* ===== Cerita Cinta Sections ===== */
 #cerita-cinta{
@@ -300,10 +339,10 @@ p{
       }
     }
   
-
-
-      
-   
+#cerita-cinta h4{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.3rem;
+} 
 /* ===== Cerita Cinta Sections End ===== */
 
 /* ===== Gallery Sections ===== */
@@ -397,8 +436,6 @@ p{
   background-size: cover;
   border-radius: 25px;
 }
-
-
 /* ===== Gallery Sections End ===== */
 
 
